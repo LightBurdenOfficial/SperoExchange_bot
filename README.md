@@ -1,5 +1,5 @@
 # SPEROEXCHANGE-JS
-A libary for SPERO EXCHANGE API written in JS
+A library for SPERO EXCHANGE API written in JS
 # SPEROEXCHANGE-JS
 
 A libary for SPERO EXCHANGE API written in JS
