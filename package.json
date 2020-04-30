@@ -1,0 +1,16 @@
+{
+  "name": "speroexchange",
+  "author": "Scott Lindh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "speroexchange.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Lindh",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "request": "^2.86.0"
+  }
+}
