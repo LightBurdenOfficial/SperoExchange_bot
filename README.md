@@ -45,17 +45,17 @@ Here is a full implimentation of the SPERO EXCHANGE API in a nodejs NPM package.
 # Example
 Install:
 
-    npm install spero
+    npm install speroexchange
 
 Example:
 
         //Import module
-        var  spero  =  require("./spero.js");
+        var  speroexchange  =  require("./speroexchange.js");
             //Settings / Config
-        spero.accessKey  =  "";
-        spero.secretKey  =  ""
+        speroexchange.accessKey  =  "";
+        speroexchange.secretKey  =  ""
 
-        spero.allMarketsTicker(function(res){
+        speroexchange.allMarketsTicker(function(res){
                 if(!res.error){
                     console.log(res)
                 }else{
