@@ -32,7 +32,7 @@ exports.tonce = function(callback){
 })
 */
 exports.apiRequest = function(uri, callback){
-        var url = 'https://develop.sperocoin.org/api/v2/' + uri;
+        var url = 'https://exchange.sperocoin.org/api/v2/' + uri;
         //console.log(url);
         request.get(url, function (error, response, body) {
     if(error){
@@ -57,7 +57,7 @@ apiPostRequest(function(result){
 })
 */
 exports.apiPostRequest = function(uri, payload, callback){
-        var url = 'https://develop.sperocoin.org/api/v2/' + uri;
+        var url = 'https://exchange.sperocoin.org/api/v2/' + uri;
         //console.log(url);
         request.post(url, {form:{signature:payload}}, function (error, response, body) {
     if(error){
